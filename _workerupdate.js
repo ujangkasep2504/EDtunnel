@@ -14,7 +14,7 @@ let พร็อกซีไอพี = พร็อกซีไอพีs[Math.
 // ipv6 พร็อกซีไอพี example remove comment to use
 // let พร็อกซีไอพี = "[2a01:4f8:c2c:123f:64:5:6810:c55a]"
 
-let dohURL = 'https://github.com/serverless-dns/serverless-dns'; // https://github.com/serverless-dns/serverless-dns OR xxx.xxx.workers.dev [README.md]
+let dohURL = 'https://doh.dns.sb/dns-query'; // https://github.com/serverless-dns/serverless-dns OR xxx.xxx.workers.dev [README.md]
 
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is invalid');
